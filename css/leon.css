@@ -282,7 +282,8 @@ body {
 }
 
 .portfolio-content .card img {
-    max-width: 100%;
+    width: 100%;
+    height: 250px;
 }
 .portfolio-content .card .info {
     padding: 20px;
@@ -296,3 +297,18 @@ body {
     margin-bottom: 0;
 }
 /* End Portfolio */
+/* Start About */
+.about {
+    padding-top: 60px;
+    padding-bottom: calc(60px + 60px);
+}
+.about-content {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.about-content .image {
+    
+}
+/* End About */
